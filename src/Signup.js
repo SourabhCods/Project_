@@ -102,6 +102,18 @@ const SignUp = () => {
             <option value="HTML">HTML</option>
             <option value="CSS">CSS</option>
         </select>
+
+        <select>
+          <option value="">Select your College Year</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <h4>Select your Level of Pace</h4>
+        <input type='range' min={1} max={10}></input>
+            
         <button type="submit">Sign Up</button>
       </form>
     </div>

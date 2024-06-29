@@ -1,0 +1,85 @@
+
+ body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.login-container, .signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.get-started-button, .signup-button {
+  width: 200px;
+  margin: 10px;
+}

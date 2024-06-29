@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Home Container */
+.home-container {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to right, #1a1a2e, #16213e); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Main Content */
+.home-main {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    text-align: center;
+}
+
+/* Profile Sidebar */
+.profile-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-sidebar img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 170px; /* Adjust size as needed */
+    height: 170px;
+    object-fit: cover;
+    border: 5px solid #fff; /* White border */
+}
+
+.profile-sidebar h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.profile-sidebar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-sidebar button:hover {
+    background-color: #0056b3;
+}
+
+/* Profile Details */
+.profile-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #11e3ae;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Profile Extra */
+.profile-extra {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.extra-section {
+    background: #4C3BCF;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fffafa;
+}
